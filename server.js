@@ -3,7 +3,7 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
-// server used to send send emails
+// This server will be run as a proxy later on when this is pushed to Heroku, for the purposes of hosting on github, the email form will not send anything.
 const app = express();
 app.use(cors());
 app.use(express.json());
