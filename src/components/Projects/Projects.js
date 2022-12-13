@@ -3,6 +3,7 @@ import { ProjectCard } from "../ProjectCard/ProjectCard.js";
 import './projects.css'
 import projImg2 from "../../assets/img/collabProjects/codeBank.png";
 import projImg1 from "../../assets/img/collabProjects/parkPicker.png";
+import projImg3 from "../../assets/img/collabProjects/parkPicker2.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,9 +19,14 @@ export const Projects = () => {
       liveSite: "https://chewy441014.github.io/trail-picker/"
     },
     {
-      description: "Design & Development",
+      description: "Code Bank: A user-friendly mock banking application that allows users to easily deposit, pay, and transfer funds between accounts on the platform. ",
       imgUrl: projImg2,
       liveSite: "https://code-bank-bc.herokuapp.com/"
+    },
+    {
+      description: "Park Picker v.2: An interactive webapp for exploring National Parks across the United States. Now ported to React and utilizing a backend with MongoDB",
+      imgUrl: projImg3,
+      liveSite: "https://park-picker-react.herokuapp.com/"
     }
   ];
 
@@ -34,6 +40,11 @@ export const Projects = () => {
       description: "A user-friendly mock banking application that allows users to easily deposit, pay, and transfer funds between accounts on the platform.",
       imgUrl: projImg2,
       liveSite: "https://github.com/dcodner24/Code-Bank"
+    },
+    {
+      description: "Park Picker v.2: An interactive webapp for exploring National Parks across the United States. Now ported to React and utilizing a backend with MongoDB.",
+      imgUrl: projImg3,
+      liveSite: "https://github.com/chewy441014/park-picker"
     }
   ];
 
